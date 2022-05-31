@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Azevedo">
+    <meta name="description" content="Portfolio de Alex Azevedo">
+    <meta name="keywords" content="alex,azevedo,developer,html,css,portfolio">
+    <link rel="stylesheet" type="text/css" href="portfoliocss.css">
+    <title>Portfólio Alex Azevedo</title>
+</head>
+<body>
+    <header>
+        <!--fixa,transparente-->
+        <div class="logo">
+            <a href="alexazevedo.com">ALEX AZEVEDO</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="homecontent">
+                <h1>Alex Azevedo</h1>
+                <h2>Professor de matemática, baseado em São Luís - MA, perseguindo uma carreira de Desenvolvedor.</h2>
+                <a href="#contato" class="btn">Fale comigo!</a>
+            </div>
+            <!--possivel melhoria: adicionar animaçao no nome-->
+        </section><!--home-->
+
+        <section id="sobre" class="sobre">
+            <!--Foto, 2 paragrafos sobre mim, tecnologias aprendidas, link pra curriculo-->
+            <h1>Sobre mim</h1>
+            <div class="sobrecontent">
+                
+                <div class="sobreimg">
+                    <img src="img/alx.jpg" alt="foto-de-perfil">
+                </div>
+
+                <div class="sobrectt">
+                    <p>Nome:<br> Alex Azevedo<br><br>Profile:<br> Desenvolvedor Full-stack<br><br>E-mail:<br> alexazevedo1705@gmail.com<br><br>Tecnologias aprendidas:<br> HTML, CSS, Javascript, C#</p>
+                </div>
+
+                <div class="sobredesc">
+                    <p>Uma breve curiosidade sobre mim é que ao sair do ensino médio queria cursar ciências da computação, porém as curvas da vida me levaram até a licenciatura em matemática, onde trabalho desde 2010. Com o tempo extra em mãos que ganhei com o isolamento social acabei me voltando para velhos interesses, dentre eles ressurgiram a programação, o ciclismo e a pintura. Os três voltaram de maneira muito forte e para ficar.<br><br> Na faculdade tive contato com fortran e C#, um mero pontapé para os estudos que iniciei no isolamento e que me ensinaram tudo que sei atualmente. Sempre tentando aplicar de maneira concisa e coesa todas as tags e comandos que vi nas documentações e videos internet a fora.</p>
+                </div>
+            </div><!--sobrecontent-->
+        </section><!--sobre-->
+
+        <section id="projetos" class="projetos">
+            <!--exemplos de 3 projetos com screenshot e breve descriçao com tecnologias usadas-->
+            <h1>Projetos</h1>
+            <div class="projetoscontent">
+                <div class="proj0">
+                    <div class="proj1">
+                        <img src="https://via.placeholder.com/200">
+                        <h2>Landing Page</h2>
+                        <p>Página de aterrisagem simples bonita e objetiva, otimizada para os mecanismos de busca, responsiva e com o objetivo de converter clientes.<br><br>Tecnologias usadas: HTML, CSS, Javascript</p>
+                    </div><!--proj1-->
+
+                    <div class="proj1">
+                        <img src="https://via.placeholder.com/200">
+                        <h2>Lojinha de artista</h2>
+                        <p>Estudo de caso de site de loja para um artista com integraçao com pagar.me</p>
+                    </div><!--proj2-->
+
+                    <div class="proj1">
+                        <img src="https://via.placeholder.com/200">
+                        <h2>Portfolio de Desenvolvedor</h2>
+                        <p>Estudo de caso de portfolio de desenvolvedor full-stack para captaçao de clientes</p>
+                    </div><!--proj3-->
+                </div><!--proj0-->
+            </div>
+        </section><!--projetos-->
+        
+        <section id="contato" class="contato">
+            <div class="cttcontent">
+                <div class="formulario">
+                    <h1>Me mande uma mensagem</h1>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="text" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea placeholder="Mensagem" required></textarea><br>
+                        <input type="submit">
+                    </form>
+                </div>
+
+                <div class="iconsocial">
+                    <h1>Entre em contato</h1>
+                    <br>
+                    <p>Se preferir, você tambem pode me encontrar pelo e-mail:<br><i>alexazevedo1705@gmail.com</i><br><br> Ou por qualquer uma das minhas redes sociais abaixo. <br><br></p>
+                    <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/alex-azevedo-402a12201/"><img src="img/353425-linkedin-logo_107480.png"></a>
+                    <a title="Git Hub" target="_blank" href="https://github.com/alexazevedo1705"><img src="img/github_git_icon_145985.png"></a>
+                    <a title="Instagram" target="_blank" href="https://www.instagram.com/azevedoalexm/"><img src="img/Instagram_Rounded_Solid_icon-icons.com_61560.png"></a>
+                    <br><br><p>Ficarei muito feliz em poder conversar com você.</p>
+                </div><!--iconsocial-->
+            </div><!--cttcontent-->
+        </section>
+        
+    </main><!--main-->
+
+</body>
+</html>
