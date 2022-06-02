@@ -56,11 +56,13 @@ nav ul li a{
     font-size: 60px;
     padding: 20px;
     margin-top: 250px;
+    display: none;
 }
 .homecontent h2{
     color: #3E6541;
     font-size: 35px;
     padding: 20px;
+    display: none;
 }
 .homecontent a{
     text-decoration: none;
